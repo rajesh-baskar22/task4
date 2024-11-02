@@ -8,7 +8,7 @@ STACK:
       .CSS
       .JAVASCRIPT
 
-Here Our Deployed in LINK :
+Here Our Deployed in LINK :https://profound-strudel-91d2a0.netlify.app
 
 
 INSTRUCTION:
