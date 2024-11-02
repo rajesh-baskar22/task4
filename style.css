@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: initial;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./pngtree-money-and-coins-calculator-a-visual-representation-of-tracking-income-expenses-picture-image_5813901.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    /* background: gray; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px;
+    border: 1px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: greenyellow;
+    margin-bottom: 20px;
+  
+    border-radius: 20px;
+    
+  }
+  h2{
+    background-color: whitesmoke;
+    display: inline; 
+    border-radius: 5px;
+    color: black;
+    padding: 7px;
+  }
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .total {
+    text-align: center;
+    font-weight: bold;
+    color: goldenrod ;
+    /* background-color: whitesmoke; */
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input, select, button {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: greenyellow;
+  }
+  
+  #entry-list {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background: lightgrey;
+    border-left: 5px solid;
+  }
+  
+  .entry.income {
+    border-color: lightpink;
+  }
+  
+  .entry.expense {
+    border-color: rgb(51, 200, 190);
+  }
+  
+  .entry-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .entry-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+   font-size: 18px;
+  }
+
+ 
+  .color{
+    background-color:gold;
+    font-size: x-large;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Income Expense Calculator</h1> 
+        <div class="summary">
+            <div class="total">
+                <h2>Income:</h2>
+                <p id="total-income" class="color">0</p>
+            
+            </div>
+            <div class="total">
+                <h2>  Expense: </h2>
+                <p id="total-Expense" class="color">0</p>
+            </div>
+
+            <div class="total">
+                <h2>Balance:</h2>
+                <p id="balance-Amount"class="color">0</p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2> Entry</h2>
+            <form id="entry-form">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="type" required>
+                    <option value="Income">Income</option>
+                    <option value="Expense">Expense</option>
+                </select>
+                <button type="submit"> Entry</button>
+            </form>
+        </div>
+            <h2>Entry List</h2>
+            <div id="entry-list"></div>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
